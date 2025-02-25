@@ -1,0 +1,31 @@
+.dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .dice {
+    font-size: 24px;
+    font-weight: bold;
+    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .roll-btn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .roll-btn:hover {
+    background: darkblue;
+  }
+  

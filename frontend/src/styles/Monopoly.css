@@ -1,0 +1,43 @@
+.monopoly-container {
+  position: relative;
+  width: 1000px; /* Adjust according to board size */
+  height: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.board-container {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+}
+
+.monopoly-board {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.player-token {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.roll-dice-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dice-container {
+  margin-top: 20px;
+}
+
+.dice {
+  width: 80px;
+  height: auto;
+}
